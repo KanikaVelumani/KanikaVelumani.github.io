@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.hero{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+}
+nav ul li{
+    position: sticky;
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+nav ul li a{
+    
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    display: flex;
+}
+nav ul li a:hover{
+    color:darkgray;
+}
+.date1{
+    
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.date1 h1{
+    
+    font-size: 50px;
+    color:black;
+    margin-bottom: 0;
+}
+span{
+    color:orange;
+
+}
+.date1 p{
+    font-family: 'Brush Script MT', cursive;
+    color:black;
+    line-height: 30px;
+    font-size:xx-large;
+}
+.date1 a{
+    display: grid;
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
+.girl{
+    border: 5px solid black;
+    border-style: double;
+}
+.images{
+    width: 25%;
+    height: 40%;
+    position: absolute;
+    bottom: 150px;
+    right: 150px
+    
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 70%;
+    font-family: sans-serif;
+    font-size: larger;
+  }
+.aboutme{
+    font-size:larger;
+    color: black;
+    font-family: sans-serif;
+     font-size: larger;
+     padding-left: 250px;
+     padding-right: 250px;
+     text-align: justify;
+    }
+.html { font-family: sans-serif;font-size:larger;width: 90%; height:20%;background-color: orange;} 
+.css { font-family: sans-serif;font-size:larger;width: 80%; background-color:orange;}
+.js { font-family: sans-serif;font-size:larger;width: 65%; background-color:orange;} 
+.j { font-family: sans-serif;font-size:larger;width: 40%; background-color:orange;} 
+.php { font-family: sans-serif;font-size:larger;width: 40%; background-color:orange}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  width: 70%;
+  justify-items:center;
+  border-radius: 5px;
+  background-color:azure;
+  padding: 20px;
+  padding-left: 20px;
+  scroll-padding-block: 20px;
+  margin-left: auto;
+    margin-right: auto;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
